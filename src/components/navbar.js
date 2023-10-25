@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
+import LogoImage from "../images/logo.svg"
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
@@ -8,40 +9,40 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-8 py-5">
         <div className="flex items-center justify-between h-16">
           <div className="w-full justify-between flex items-center">
-            <a className="text-white flex-shrink-0 font-poppins" href="/">
-              Circle
+            <a className="text-black flex font-poppins" href="/">
+              <img src={LogoImage} width="171px" height="35px" alt="logo" className="border-0 display-inline-block" />
             </a>
             <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
+              <div className="ml-10 font-thin flex items-baseline space-x-4">
                 <Link
-                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
-                  to="/about"
+                  className="text-black hover:opacity-100 px-3 py-2 rounded-md text-sm font-regular"
+                  to="/pricing"
                 >
-                  About
+                  Solutions
                 </Link>
                 <Link
-                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  className="text-black hover:opacity-100 px-3 py-2 rounded-md text-sm font-regular"
                   to="/blog"
                 >
                   Blog
                 </Link>
                 <Link
-                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
-                  to="/pricing"
-                >
-                  Pricing
-                </Link>
-                <Link
-                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  className="text-black hover:opacity-100 px-3 py-2 rounded-md text-sm font-regular"
                   to="/careers"
                 >
                   Careers
                 </Link>
                 <Link
-                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  className="text-black hover:opacity-100 px-3 py-2 rounded-md text-sm font-regular"
+                  to="/about"
+                >
+                  About
+                </Link>
+                <Link
+                  className="hover:opacity-100 px-3 py-2 rounded-md text-sm font-regular"
                   to="/contact"
                 >
-                  Contact
+                  Schedule a Call
                 </Link>
               </div>
             </div>

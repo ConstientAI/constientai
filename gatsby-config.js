@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `ConstientAI`,
+    description: `As a division of Constient Global Services, based in Chennai, India, we bring the best of both worlds: the agility of startups and the precision of established enterprises. Our mission is clear - to provide generative AI solutions that redefine automation and streamline business processes.`,
+    author: `Vivek Durai`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -21,13 +21,12 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-gatsby-cloud`,
     "gatsby-plugin-postcss",
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

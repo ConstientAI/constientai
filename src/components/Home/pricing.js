@@ -29,10 +29,10 @@ const PricingMain = () => {
               </div>
             </div>
             <div className="flex flex-col items-center justify-center w-2/5 p-8 bg-pink rounded-r-lg">
-              <h2 className="text-xl text-white text-bold">
+              <h2 className="text-xl text-slate-800 text-bold">
                 All updates for one year
               </h2>
-              <h1 className="text-7xl text-white font-bold mt-2">$149</h1>
+              <h1 className="text-7xl text-slate-800 font-bold mt-2">$149</h1>
               <div className="mt-5">
                 <Button
                   colorClass="bg-white"

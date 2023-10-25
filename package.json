@@ -12,7 +12,6 @@
     "gatsby-plugin-image": "^3.11.0",
     "gatsby-plugin-manifest": "^5.11.0",
     "gatsby-plugin-offline": "^4.2.0",
-    "gatsby-plugin-postcss": "^6.11.0",
     "gatsby-plugin-sharp": "^5.11.0",
     "gatsby-source-filesystem": "^5.11.0",
     "gatsby-transformer-sharp": "^5.11.0",
@@ -23,10 +22,11 @@
     "typeface-poppins": "^1.1.13"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.12",
+    "autoprefixer": "^10.4.15",
+    "gatsby-plugin-postcss": "^6.12.0",
+    "postcss": "^8.4.29",
     "prettier": "2.2.1",
-    "tailwindcss": "^2.1.2"
+    "tailwindcss": "^2.2.19"
   },
   "keywords": [
     "gatsby"
